@@ -4,7 +4,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy database.
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
 simple to use.
 
-Can be found on telegram as [Exusiai](https://t.me/BanhammerMarie_bot).
+Can be found on telegram as [Exusiai](https://t.me/TheRealExusiaibot).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dank-del/ExusiaiRobot)
 
@@ -21,7 +21,7 @@ Alternatively, [find me on telegram](https://t.me/SonOfLars)! (Keep all support 
 ## IMPORTANT NOTICE:
 
 This project is no longer under active maintenance. Occasional bug fixes may be released, but no new features are scheduled to be added.
-Users of [Exusiai](https://t.me/BanhammerMarie_bot) are encouraged to migrate to [PyroGramBot](https://t.me/OwneRoBot), which
+Users of [Exusiai](https://t.me/TheRealExusiaibot) are encouraged to migrate to [PyroGramBot](https://t.me/OwneRoBot), which
 is the improved version of this project, written in PyroGram, with the intention to avoid various BOT API hiccups, and to protect group chats from (user)bots, floods and even lifeless losers.
 
 
