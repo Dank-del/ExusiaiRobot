@@ -61,7 +61,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
 
     try:
         chat.kick_member(user_id)
-        bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
+        bot.send_sticker(chat.id, BAN_STICKER)  # banhammer Exusiai sticker
         keyboard = []
         reply = "{} ന് ബണ്ണ് കൊടുത്തു വിട്ടിട്ടുണ്ട് !".format(mention_html(member.user.id, member.user.first_name))
         message.reply_text(reply, reply_markup=keyboard, parse_mode=ParseMode.HTML)
@@ -146,7 +146,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
 
     try:
         chat.kick_member(user_id, until_date=bantime)
-        bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
+        bot.send_sticker(chat.id, BAN_STICKER)  # banhammer Exusiai sticker
         message.reply_text("ബണ്ണ് കൊടുത്തുവിട്ടു! User will be BANNED for {}.".format(time_val))
         return log
 
@@ -198,7 +198,7 @@ def kick(bot: Bot, update: Update, args: List[str]) -> str:
 
     res = chat.unban_member(user_id)  # unban on current user = kick
     if res:
-        bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
+        bot.send_sticker(chat.id, BAN_STICKER)  # banhammer Exusiai sticker
         message.reply_text("ലവനെ എടുത്തു വെളിയിൽ കളഞ്ഞിട്ടുണ്ട്!")
         log = "<b>{}:</b>" \
               "\n#KICKED" \
