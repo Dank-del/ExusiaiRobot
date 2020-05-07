@@ -23,7 +23,7 @@ Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 Maintained by [dank_as_fuck](https://t.me/dank_as_fuck)
-
+My repository: [Exusiai](https://github.com/Dank-del/ExusiaiRobot)
 
 *Main* commands available:
  - /start: start the bot
